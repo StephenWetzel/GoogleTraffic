@@ -1,9 +1,1 @@
-permBan
-=======
-
-Permanently ban repeat offenders from fail2ban
-
-checks your fail2ban log and checks to see if ips have been banned multiple times.
-if so, it adds them to your hosts.deny file which permanently bans them.
-you should monitor your hosts.deny file to make sure it doesn't get too large.
-you should also rotate your fail2ban log to also ensure it doesn't get too large.
+Uses cURL to request google driving time between two points.  Takes that time and logs it to a file and to stdout.  There is a hash in the perl script with the locations, add yours and then pass the names you used in the hash to the script when you run it (start end).
